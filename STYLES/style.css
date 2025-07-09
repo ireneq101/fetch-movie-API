@@ -235,13 +235,20 @@ span.red {
 /* MAIN CONTENT END */
 
 @media screen and (max-width: 550px) {
+  nav {
+    padding: 6% 4%;
+  }
+
   .main-logo {
-    width: 53%;
-    text-align: right;
+    width: 55%;
   }
   
   .main-logo img {
     width: 23%;
+  }
+
+  .nav-btn {
+    font-size: 27px;
   }
 
   .search {
