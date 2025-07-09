@@ -233,3 +233,23 @@ span.red {
   transform: translateY(0);
 }
 /* MAIN CONTENT END */
+
+@media screen and (max-width: 550px) {
+  .main-logo {
+    width: 53%;
+    text-align: right;
+  }
+  
+  .main-logo img {
+    width: 23%;
+  }
+
+  .search {
+    width: 33%;
+    text-align: center;
+  }
+  #search {
+    padding: 0.4rem 0.7rem;
+    align-items: center;
+  }
+}
